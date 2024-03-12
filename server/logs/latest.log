@@ -1,0 +1,1254 @@
+[09:39:34] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[09:39:34] [Server thread/INFO]: Loading properties
+[09:39:34] [Server thread/INFO]: Default game type: SURVIVAL
+[09:39:34] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[09:39:34] [Server thread/INFO]: Debug logging is disabled
+[09:39:34] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[09:39:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[09:39:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:39:34] [Server thread/INFO]: Data value allowed items: 
+[09:39:34] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[09:39:34] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[09:39:34] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[09:39:34] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[09:39:34] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[09:39:34] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[09:39:34] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[09:39:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[09:39:34] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[09:39:34] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[09:39:34] [Server thread/INFO]: Generating keypair
+[09:39:34] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[09:39:34] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[09:39:34] [Server thread/INFO]: Using default channel type
+[09:39:35] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[09:39:35] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[09:39:35] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[09:39:35] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[09:39:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:39:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:39:35] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:39:35] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[09:39:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:39:35] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[09:39:35] [Server thread/INFO]: Preparing level "world"
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:39:35] [Server thread/INFO]: Mob Spawn Range: 4
+[09:39:35] [Server thread/INFO]: Anti X-Ray: true
+[09:39:35] [Server thread/INFO]: 	Engine Mode: 1
+[09:39:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[09:39:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[09:39:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:39:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:39:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:39:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[09:39:35] [Server thread/INFO]: Random Lighting Updates: false
+[09:39:35] [Server thread/INFO]: Structure Info Saving: true
+[09:39:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[09:39:35] [Server thread/INFO]: Max Entity Collisions: 8
+[09:39:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[09:39:35] [Server thread/INFO]: Max TNT Explosions: 100
+[09:39:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:39:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:39:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:39:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:39:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:39:35] [Server thread/INFO]: View Distance: 4
+[09:39:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:39:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[09:39:35] [Server thread/INFO]: Clear tick list: false
+[09:39:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:39:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[09:39:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[09:39:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[09:39:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[09:39:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[09:39:35] [Server thread/INFO]: Water over lava flow speed: 5
+[09:39:35] [Server thread/INFO]: Fix TNT cannons: false
+[09:39:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[09:39:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[09:39:35] [Server thread/INFO]: World async lighting: false
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:39:35] [Server thread/INFO]: Mob Spawn Range: 4
+[09:39:35] [Server thread/INFO]: Anti X-Ray: true
+[09:39:35] [Server thread/INFO]: 	Engine Mode: 1
+[09:39:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[09:39:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[09:39:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:39:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:39:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:39:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[09:39:35] [Server thread/INFO]: Random Lighting Updates: false
+[09:39:35] [Server thread/INFO]: Structure Info Saving: true
+[09:39:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[09:39:35] [Server thread/INFO]: Max Entity Collisions: 8
+[09:39:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[09:39:35] [Server thread/INFO]: Max TNT Explosions: 100
+[09:39:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:39:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:39:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:39:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:39:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:39:35] [Server thread/INFO]: View Distance: 4
+[09:39:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:39:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[09:39:35] [Server thread/INFO]: Clear tick list: false
+[09:39:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:39:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[09:39:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[09:39:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[09:39:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[09:39:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[09:39:35] [Server thread/INFO]: Water over lava flow speed: 5
+[09:39:35] [Server thread/INFO]: Fix TNT cannons: false
+[09:39:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[09:39:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[09:39:35] [Server thread/INFO]: World async lighting: false
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:39:35] [Server thread/INFO]: Mob Spawn Range: 4
+[09:39:35] [Server thread/INFO]: Anti X-Ray: true
+[09:39:35] [Server thread/INFO]: 	Engine Mode: 1
+[09:39:35] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[09:39:35] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[09:39:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:39:35] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:39:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[09:39:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:39:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[09:39:35] [Server thread/INFO]: Random Lighting Updates: false
+[09:39:35] [Server thread/INFO]: Structure Info Saving: true
+[09:39:35] [Server thread/INFO]: Sending up to 10 chunks per packet
+[09:39:35] [Server thread/INFO]: Max Entity Collisions: 8
+[09:39:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[09:39:35] [Server thread/INFO]: Max TNT Explosions: 100
+[09:39:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:39:35] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:39:35] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:39:35] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[09:39:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:39:35] [Server thread/INFO]: View Distance: 4
+[09:39:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:39:35] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[09:39:35] [Server thread/INFO]: Clear tick list: false
+[09:39:35] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:39:35] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:39:35] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[09:39:35] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[09:39:35] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[09:39:35] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[09:39:35] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[09:39:35] [Server thread/INFO]: Water over lava flow speed: 5
+[09:39:35] [Server thread/INFO]: Fix TNT cannons: false
+[09:39:35] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[09:39:35] [Server thread/INFO]: Keep spawn chunk loaded: true
+[09:39:35] [Server thread/INFO]: World async lighting: false
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[09:39:35] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[09:39:35] [Server thread/INFO]: Preparing start region for level 0 (Seed: 666)
+[09:39:36] [Server thread/INFO]: Preparing spawn area: 44%
+[09:39:37] [Server thread/INFO]: Preparing start region for level 1 (Seed: 666)
+[09:39:38] [Server thread/INFO]: Preparing spawn area: 60%
+[09:39:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: 666)
+[09:39:38] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[09:39:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[09:39:38] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[09:39:38] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[09:39:38] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[09:39:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[09:39:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[09:39:39] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[09:39:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:39:39] [Server thread/INFO]: Done (3.970s)! For help, type "help" or "?"
+[09:39:39] [Server thread/INFO]: Timings Reset
+[09:39:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[09:39:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[09:39:40] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[09:39:46] [Thread-7/INFO]: UUID of player Darkfett is c1810de5-daaf-3ab4-8b52-fa67a55e958c
+[09:39:46] [Server thread/INFO]: Darkfett[/[0:0:0:0:0:0:0:1]:39638] logged in with entity id 514 at ([world]890.2597598274106, 66.8500000178814, 437.3000000119209)
+[10:08:05] [Async Chat Thread - #0/INFO]: <Darkfett> t[m
+
+[10:13:08] [Server thread/INFO]: Game rule has been updated
+[10:14:56] [Server thread/INFO]: Set Darkfett's game mode to Spectator Mode
+[10:15:04] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 100 seconds
+[10:16:40] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 100 seconds
+[10:17:15] [Server thread/INFO]: Set Darkfett's game mode to Creative Mode
+[10:17:32] [Server thread/INFO]: Set Darkfett's game mode to Spectator Mode
+[10:18:13] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 100 seconds
+[10:19:47] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 100 seconds
+[10:20:16] [Server thread/INFO]: Set Darkfett's game mode to Creative Mode
+[10:21:24] [Server thread/INFO]: Set Darkfett's game mode to Survival Mode
+[10:22:58] [Server thread/INFO]: Darkfett has just earned the achievement [Benchmarking]
+[10:23:22] [Server thread/INFO]: Given [Bed] * 1 to Darkfett
+[10:35:56] [Server thread/INFO]: Given [Flint] * 40 to Darkfett
+[10:38:58] [Server thread/INFO]: Darkfett has just earned the achievement [Time to Strike!]
+[10:41:37] [Server thread/INFO]: Darkfett fell out of the world
+[10:41:42] [Server thread/INFO]: Darkfett issued server command: /back
+[10:41:49] [Server thread/INFO]: Darkfett fell out of the world
+[10:41:51] [Server thread/INFO]: Set Darkfett's game mode to Creative Mode
+[10:41:55] [Async Chat Thread - #1/INFO]: <Darkfett> back[m
+
+[10:41:56] [Server thread/INFO]: Darkfett issued server command: /back
+[10:42:04] [Server thread/INFO]: Darkfett fell out of the world
+[10:42:10] [Server thread/INFO]: Darkfett issued server command: /back
+[10:42:17] [Server thread/INFO]: Darkfett fell out of the world
+[10:44:16] [Server thread/INFO]: Darkfett issued server command: /gamemode su
+[10:44:21] [Server thread/INFO]: Set Darkfett's game mode to Survival Mode
+[10:45:14] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 500 seconds
+[10:53:33] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 500 seconds
+[11:02:03] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 500 seconds
+[11:07:49] [Server thread/INFO]: Darkfett lost connection: Disconnected
+[11:07:49] [Server thread/INFO]: Darkfett left the game.
+[11:08:57] [Thread-11/INFO]: UUID of player Darkfett is c1810de5-daaf-3ab4-8b52-fa67a55e958c
+[11:08:57] [Server thread/INFO]: Darkfett[/[0:0:0:0:0:0:0:1]:39108] logged in with entity id 9380 at ([world_the_end]-4.091578185199053, 62.0, 10.59293405416259)
+[11:09:27] [Server thread/INFO]: Darkfett has just earned the achievement [Monster Hunter]
+[11:11:57] [Server thread/INFO]: Given Night Vision (ID 16) * 0 to Darkfett for 500 seconds
+[11:20:20] [Server thread/INFO]: Given [Piston] * 1 to Darkfett
+[11:20:31] [Server thread/INFO]: Given [Redstone Torch] * 1 to Darkfett
+[11:31:37] [Server thread/INFO]: Set Darkfett's game mode to Creative Mode
+[11:40:04] [Server thread/INFO]: Opped Darkfett
+[11:40:32] [Server thread/INFO]: Darkfett issued server command: /tp @e ~ ~+10 ~
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 47.7636068431705, 77.0, -3.9367038443781444]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 49.8003353949132, 76.0, 3.071664735861263]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 72.62062772945455, -13.695870776338447]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 33.391465104185095, 72.71328843241133, -13.051798983236727]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Sheep to 83.1247867182843, 77.0, 10.123932887234957]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 82.62062772945455, -13.695870776338447]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 31.11331025721932, 70.0, -7.938086705473564]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 32.66499008338364, 65.0, -14.99328160831843]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 51.189684951936016, 58.0, -15.577077717814241]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 39.54167288266467, 72.66909956575228, -26.952857699958827]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 34.80512687163391, 72.60860656031826, -24.873992938816176]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to 23.139722010821387, 72.54458036919124, -9.93700718843075]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 56.0, -15.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 43.178745253518, 72.63639772258536, -28.773212034379483]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 36.20295646495962, 65.0, -24.110822651362128]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 52.5, 56.0, -18.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 40.065094830826546, 65.0, -26.918031302841207]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 53.0, -19.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 51.0, -16.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 65.5, 52.0, 17.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Sheep to 83.1247867182843, 87.0, 10.123932887234957]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Squid to 69.00982453487813, 68.97592248953879, -35.52080522850156]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Squid to 72.09296566713601, 72.29228094391463, -34.73310523387045]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 55.0, -40.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.63375016017127, 72.74954332993167, -41.520015912562755]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 34.0, 6.753558529259289]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 64.76012151514954, 72.61439115931785, -46.87534374170167]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 63.95810919981321, 71.0, -48.76087522974194]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Bat to 26.398180524065815, 36.11354112225815, 12.835993705580833]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 87.5, 57.0, 15.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 66.25477436468063, 78.0, 43.01415720398599]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 75.09196161172268, 70.0, -47.27816157321819]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 75.5193087804339, 72.49427566585055, -48.358343929528466]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 29.0, 19.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 70.84878499261946, 70.0, -52.485528652897344]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 71.88897010851714, 72.64039121920388, -53.542477563096234]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Witch to 21.5, 74.0, -56.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 18.5, 44.0, 36.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to 39.5, 55.0, -60.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 56.0, -34.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Spider to -3.5, 58.0, -34.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 31.5, 53.0, -59.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 56.0, -36.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to 47.5, 33.0, -50.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 76.5, 22.0, -19.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to -2.5, 81.0, 39.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Spider to 2.5, 61.0, -50.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 112.30032093309063, 76.0, -16.939030667417704]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to 45.5, 35.0, -56.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -10.79999999701976, 97.0, -35.79999999701977]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -10.5, 98.0, -43.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 68.27332773049753, 80.0, -75.43749150341324]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 21.46330967129012, 71.0, 67.1153572281335]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 76.0, 41.270784366641486]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to 112.06095401256614, 76.0, 38.78669617429415]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -24.49437656096286, 85.0, 29.679519363725795]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -1.5, 41.0, 48.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 86.0, 41.270784366641486]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to 25.953482808738443, 68.0, 73.99988426032692]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -6.5, 35.0, 41.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -4.5, 98.0, -64.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 24.677331129439597, 68.0, 74.69999998807907]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 115.62895522048503, 78.0, 47.15620286075651]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Sheep to 118.05285985948454, 79.0, 47.13136589903614]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -30.5, 100.0, -43.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Pig to 126.4444680379108, 76.0, -47.28767718871602]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 89.10352389042806, 72.56981033183466, -87.07114564387581]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 88.09871880503495, 70.0, -87.65190404793059]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -21.5, 48.0, 58.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -1.6876200111255555, 72.56255571829499, 80.20159093306121]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to -28.5, 26.0, -39.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -1.9965778705694746, 71.0, 80.87337662575561]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -29.5, 26.0, -39.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -32.5, 26.0, -38.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.79999999701977, 73.0, -71.79999999701977]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 125.37385799198812, 74.0, -69.28603630321994]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -45.5, 37.0, -21.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 124.5, 74.0, -71.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -28.5, 48.0, 59.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to -52.5, 104.0, 1.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -29.5, 48.0, 59.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Cow to -1.4861077096676785, 75.0, 87.65609703883328]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.52275613839231, 76.0, -76.30645180001699]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 57.292333905880824, 78.0, -112.07343112105828]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 58.5, 78.0, -112.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 61.96701940389409, 77.0, -112.12479573850354]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Zombie to -58.5, 62.0, 23.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -38.27639201448753, 95.53088211976154, -72.28957076655105]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Creeper to -60.5, 62.0, 19.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.3160506046301, 75.0, -112.19408533956305]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -37.257816901441714, 94.0, -74.53774870736031]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to 54.67603761319568, 81.41999998688698, -116.68346057456019]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 112.44982867516659, 79.0, 91.27067868550924]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -66.42505274463556, 98.0, 24.3990843875567]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 107.0, -16.44471423086408]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 80.0, 122.55000001192093]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 90.0, 122.55000001192093]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 117.0, -16.44471423086408]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -14.5, 83.0, -124.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.877388130016712, 78.0, -125.10659342584502]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -17.626628483154388, 79.0, -126.47552886527421]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.5, 78.0, -126.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -72.63965471202513, 74.0, -98.66434782695218]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -63.53304848642439, 74.0, -112.24685546082071]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -64.79999999701975, 74.0, -112.17674974807967]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.28423075756731, 101.0, -10.55756691440661]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.29317766795093, 102.0, -2.497834213371868]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.21478697300441, 103.0, -1.646201555683888]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.6764951501767, 101.0, -11.145799010238763]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.33320176678042, 101.0, -23.49426661830959]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.26027874219857, 99.0, -31.522819793487237]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.31750606296919, 100.0, -30.480778397690656]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.121968538523, 98.0, -43.38652181984765]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.66360059393931, 98.0, -45.082449970289844]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1182655202485, 98.0, -52.9833575995599]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.13800817887663, 98.0, -55.91043793128019]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.12529768515492, 98.0, -59.61839222196541]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.04905661727628, 98.0, -60.332299755968485]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1858905373646, 98.0, -62.32617494745708]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 98.0, -51.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 98.0, -51.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -115.58548226580427, 98.0, -54.588332110778325]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.71441564702305, 98.0, -53.19101019610454]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.06259302310852, 98.0, -66.64880542066548]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.20954952375327, 80.0, 64.4930838509902]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.93984163491221, 98.0, -68.1325401384625]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.11318513235078, 79.0, 66.80811552406428]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.25062308365693, 98.0, -71.84491079049997]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.5673498160553, 98.0, -69.56537580843708]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -114.5, 97.0, -73.5]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.018549234045, 96.0, -80.60753225802374]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.79479758042207, 96.0, -79.48868402218771]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -78.69235342613614, 101.0, 122.64533091124176]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 75.0, 81.65063939315846]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.15161066220016, 94.0, -88.68244976287765]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 74.0, 89.51106048701399]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 85.0, 81.65063939315846]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -101.98910590693299, 72.56805756360353, -112.69083034313566]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 84.0, 89.51106048701399]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -104.18812333353593, 73.0, -112.16584075602948]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -94.34011291343111, 95.92159999847412, 121.36051856003333]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -96.61066646599579, 98.0, 125.4051043010518]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -108.39707263076103, 90.0, 116.43547274669739]
+[11:40:32] [Server thread/INFO]: [Darkfett: Teleported Chicken to -123.42602392658371, 76.0, 99.72487150392784]
+[11:40:36] [Server thread/INFO]: Darkfett issued server command: /tp @e ~ ~+10 ~
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 47.116813347906806, 77.0, -2.362253676820296]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 48.43193460548356, 72.23553474786512, 8.239213564600902]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 83.9070709100159, -13.695870776338447]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 50.576595560019605, 68.0, -15.48476484026854]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Sheep to 83.1247867182843, 77.0, 10.123932887234957]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 33.391465104185095, 73.81386719734333, -13.051798983236727]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 93.9070709100159, -13.695870776338447]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 31.11331025721932, 70.0, -7.938086705473564]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 66.0, -15.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 52.5, 66.0, -18.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 32.66499008338364, 65.0, -14.99328160831843]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 63.0, -19.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 61.0, -16.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 39.54167288266467, 73.9788437177189, -26.952857699958827]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 34.6324760324318, 73.78581279218214, -25.22045808731355]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to 23.139722010821387, 69.02559924405901, -9.93700718843075]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 43.178745253518, 73.964782651954, -28.773212034379483]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 36.20295646495962, 65.0, -24.110822651362128]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 40.065094830826546, 65.0, -26.918031302841207]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 65.5, 62.0, 17.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 44.0, 6.753558529259289]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.muttonRaw to 82.5042501692868, 77.0, 10.253282099258243]
+[11:40:36] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.tile.cloth.white to 83.23698793588406, 77.0, 9.940135954151607]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 66.98541261911947, -40.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Squid to 69.00982453487813, 72.38210134423412, -35.52080522850156]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Squid to 72.09296566713601, 72.0, -34.73310523387045]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 39.0, 19.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 87.5, 67.0, 15.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.63375016017127, 73.92351271950926, -41.520015912562755]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 64.76012151514954, 73.83574973294398, -46.87534374170167]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 63.95810919981321, 71.0, -48.76087522974194]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitHide to 66.875, 78.0, 42.863777970877095]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitRaw to 65.52876571630038, 77.0, 43.87674902229899]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 75.09196161172268, 70.0, -47.27816157321819]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 75.5193087804339, 73.72246641818802, -48.358343929528466]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 18.5, 54.0, 36.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 70.84878499261946, 70.0, -52.485528652897344]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 76.5, 32.0, -19.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 71.88897010851714, 73.69137135881141, -53.542477563096234]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to 47.5, 43.0, -50.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to 39.5, 65.0, -60.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Witch to 21.5, 84.0, -56.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Spider to -3.5, 68.0, -34.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 31.5, 63.0, -59.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 63.0, -34.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 66.0, -36.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to 45.5, 45.0, -56.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Spider to 2.5, 71.0, -50.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to -2.5, 91.0, 39.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 112.30032093309063, 86.0, -16.939030667417704]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -10.79999999701976, 101.60644333854196, -35.79999999701977]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 21.46330967129012, 81.0, 67.1153572281335]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -1.5, 51.0, 48.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -10.5, 105.0, -43.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 68.27332773049753, 83.46469571179142, -75.43749150341324]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -6.5, 45.0, 41.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 96.0, 41.270784366641486]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to 112.06095401256614, 86.0, 38.78669617429415]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -24.49437656096286, 90.06314238923703, 29.679519363725795]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to 25.953482808738443, 68.0, 73.99988426032692]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 24.677331129439597, 71.0, 74.69999998807907]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 106.0, 41.270784366641486]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -4.631757312272939, 98.0, -64.96223755584315]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 115.62895522048503, 88.0, 47.15620286075651]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Sheep to 118.05285985948454, 89.0, 47.13136589903614]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -30.5, 100.0, -43.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Pig to 126.4444680379108, 86.0, -47.28767718871602]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to -28.5, 36.0, -39.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -21.5, 58.0, 58.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 89.10352389042806, 73.69714038653751, -87.07114564387581]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -29.5, 36.0, -39.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 88.09871880503495, 70.0, -87.65190404793059]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -32.5, 36.0, -38.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -1.6876200111255555, 73.77582782381853, 80.20159093306121]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -1.9965778705694746, 71.0, 80.87337662575561]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -45.5, 47.0, -21.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -28.5, 58.0, 59.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -29.5, 58.0, 59.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.79999999701977, 83.0, -71.79999999701977]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Cow to -1.4861077096676785, 75.0, 87.65609703883328]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 125.37385799198812, 84.0, -69.28603630321994]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 124.5, 84.0, -71.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.52275613839231, 86.0, -76.30645180001699]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to -52.5, 113.0, 1.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Zombie to -58.5, 72.0, 23.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Creeper to -60.5, 72.0, 19.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 57.292333905880824, 88.0, -112.07343112105828]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 61.96701940389409, 87.0, -112.12479573850354]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 58.5, 88.0, -112.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -38.27639201448753, 96.76435305155304, -72.28957076655105]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -37.257816901441714, 94.0, -74.53774870736031]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.3160506046301, 85.0, -112.19408533956305]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to 54.67603761319568, 91.41999998688698, -116.68346057456019]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 112.44982867516659, 89.0, 91.27067868550924]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -66.42505274463556, 101.69304523714167, 24.3990843875567]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 120.23634618644115, -16.44471423086408]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 100.0, 122.55000001192093]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 110.0, 122.55000001192093]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -14.5, 93.0, -124.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 130.23634618644115, -16.44471423086408]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.877388130016712, 88.0, -125.10659342584502]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -17.626628483154388, 89.0, -126.47552886527421]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.5, 88.0, -126.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -72.63965471202513, 77.8072199998168, -98.66434782695218]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -63.53304848642439, 84.0, -112.24685546082071]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -64.79999999701975, 84.0, -112.17674974807967]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.28423075756731, 111.0, -10.55756691440661]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.29317766795093, 112.0, -2.497834213371868]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.21478697300441, 113.0, -1.646201555683888]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.6764951501767, 111.0, -11.145799010238763]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.33320176678042, 111.0, -23.49426661830959]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.26027874219857, 109.0, -31.522819793487237]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.31750606296919, 110.0, -30.480778397690656]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.121968538523, 108.0, -43.38652181984765]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.66360059393931, 108.0, -45.082449970289844]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1182655202485, 108.0, -52.9833575995599]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.13800817887663, 108.0, -55.91043793128019]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.12529768515492, 108.0, -59.61839222196541]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.04905661727628, 108.0, -60.332299755968485]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1858905373646, 108.0, -62.32617494745708]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 108.0, -51.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 108.0, -51.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -115.58548226580427, 108.0, -54.588332110778325]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.20954952375327, 90.0, 64.4930838509902]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.71441564702305, 108.0, -53.19101019610454]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.06259302310852, 108.0, -66.64880542066548]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.11318513235078, 89.0, 66.80811552406428]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.93984163491221, 108.0, -68.1325401384625]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.25062308365693, 108.0, -71.84491079049997]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.5673498160553, 108.0, -69.56537580843708]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -114.5, 107.0, -73.5]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.018549234045, 106.0, -80.60753225802374]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.79479758042207, 106.0, -79.48868402218771]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -78.69235342613614, 111.0, 122.64533091124176]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 95.0, 81.65063939315846]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 94.0, 89.51106048701399]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.15161066220016, 104.0, -88.68244976287765]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 105.0, 81.65063939315846]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -101.98910590693299, 82.56805756360353, -112.69083034313566]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 104.0, 89.51106048701399]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -104.18812333353593, 83.0, -112.16584075602948]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -94.34011291343111, 105.92159999847412, 121.36051856003333]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -96.61066646599579, 108.0, 125.4051043010518]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -108.39707263076103, 100.0, 116.43547274669739]
+[11:40:36] [Server thread/INFO]: [Darkfett: Teleported Chicken to -123.42602392658371, 86.0, 99.72487150392784]
+[11:40:41] [Server thread/INFO]: Darkfett issued server command: /tp @e ~ ~+10 ~
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 49.7421287934091, 77.0, -5.680031721150559]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 50.42341265635744, 78.0, -15.590813639196321]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 76.0, -15.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 52.5, 76.0, -18.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 47.94413420850471, 72.0, 8.464015299517694]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 72.5623618235118, -19.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 33.391465104185095, 72.44376180560437, -13.051798983236727]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 92.48959464250251, -13.695870776338447]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 31.11331025721932, 70.0, -7.938086705473564]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 71.95926445266986, -16.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 102.48959464250251, -13.695870776338447]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 32.66499008338364, 65.0, -14.99328160831843]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 39.54167288266467, 72.56136745020551, -26.952857699958827]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 43.178745253518, 72.5473063844406, -28.773212034379483]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 34.41830157367476, 72.41570740044318, -25.650250296841936]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 36.20295646495962, 65.0, -24.110822651362128]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 40.065094830826546, 65.0, -26.918031302841207]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Cow to 23.139722010821387, 71.58245555993136, -9.93700718843075]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 65.5, 72.0, 17.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 54.0, 6.753558529259289]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 72.55808510866026, -40.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Squid to 69.00982453487813, 71.57557523422511, -35.52080522850156]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.muttonRaw to 82.31500339962206, 77.0, 10.185348212872007]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Squid to 72.09296566713601, 72.33293275542411, -34.73310523387045]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.tile.cloth.white to 83.16810383161264, 77.0, 9.805683901837659]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 49.0, 19.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.63375016017127, 72.50603645199587, -41.520015912562755]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 64.76012151514954, 72.465644341205, -46.87534374170167]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 87.5, 76.0, 15.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 63.95810919981321, 71.0, -48.76087522974194]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 76.5, 42.0, -19.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 75.09196161172268, 70.0, -47.27816157321819]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 75.5193087804339, 72.5308859210715, -48.358343929528466]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to 47.5, 53.0, -50.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 70.84878499261946, 70.0, -52.485528652897344]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitHide to 66.875, 78.0, 42.863066932859866]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitRaw to 65.5001221516513, 77.0, 43.892256631210245]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 71.88897010851714, 72.43137486266335, -53.542477563096234]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to 15.5, 101.0, 28.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 18.5, 64.0, 36.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to 45.5, 55.0, -56.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to 39.5, 75.0, -60.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 73.0, -34.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to 13.5, 101.0, 30.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 31.5, 73.0, -59.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 75.0, -36.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.string to -3.6267049223184586, 78.0, -34.26951698064804]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.string to -3.6033082365989686, 78.0, -34.44204387664795]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Witch to 21.5, 94.0, -56.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to 7.5, 29.0, -14.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.string to 2.460800492763519, 81.0, -50.60213669240475]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 112.30032093309063, 96.0, -16.939030667417704]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -3.5, 77.0, 38.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -10.79999999701976, 100.18896707102937, -35.79999999701977]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 68.27332773049753, 82.04721944427803, -75.43749150341324]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to -2.5, 100.0, 39.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -10.5, 105.0, -43.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -1.5, 61.0, 48.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 116.0, 41.270784366641486]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -6.5, 55.0, 41.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to -14.650000005960464, 96.0, 32.349999994039536]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 21.46330967129012, 85.0, 67.1153572281335]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Cow to 112.06095401256614, 96.0, 38.78669617429415]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -24.49437656096286, 88.6456661217299, 29.679519363725795]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitRaw to 25.37527142588054, 67.0, 72.86939207632324]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.beefRaw to 26.60576909296113, 68.0, 73.66353149037582]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -4.541772641883786, 98.0, -67.84262689224232]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 115.62895522048503, 98.0, 47.15620286075651]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 126.0, 41.270784366641486]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Pig to 126.4444680379108, 96.0, -47.28767718871602]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Sheep to 118.05285985948454, 99.0, 47.13136589903614]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to -28.5, 46.0, -39.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 89.10352389042806, 72.39714389128352, -87.07114564387581]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 88.09871880503495, 70.0, -87.65190404793059]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -29.5, 46.0, -39.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -30.5, 100.0, -43.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -32.5, 46.0, -38.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -21.5, 68.0, 58.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -45.5, 57.0, -21.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -1.6876200111255555, 72.40572243207956, 80.20159093306121]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.79999999701977, 93.0, -71.79999999701977]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 125.37385799198812, 94.0, -69.28603630321994]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -1.9965778705694746, 71.0, 80.87337662575561]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 124.5, 94.0, -71.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -28.5, 68.0, 59.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -29.5, 68.0, 59.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.52275613839231, 96.0, -76.30645180001699]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.beefRaw to -1.5405271217023033, 74.0, 87.78047320250799]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.leather to -2.1165224482827245, 75.0, 88.50284727117995]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to -52.5, 113.0, 1.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 57.292333905880824, 98.0, -112.07343112105828]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 61.96701940389409, 97.0, -112.12479573850354]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 58.5, 98.0, -112.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.3160506046301, 95.0, -112.19408533956305]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -38.27639201448753, 95.63197255339942, -72.28957076655105]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -37.257816901441714, 94.0, -74.53774870736031]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Zombie to -58.5, 82.0, 23.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Creeper to -60.5, 82.0, 19.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to 54.67603761319568, 101.41999998688698, -116.68346057456019]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 112.44982867516659, 99.0, 91.27067868550924]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -66.42505274463556, 100.2755689696283, 24.3990843875567]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 128.81886991892776, -16.44471423086408]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 120.0, 122.55000001192093]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -14.5, 103.0, -124.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.877388130016712, 98.0, -125.10659342584502]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -17.626628483154388, 99.0, -126.47552886527421]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 130.0, 122.55000001192093]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.5, 98.0, -126.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 138.81886991892776, -16.44471423086408]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -72.63965471202513, 76.38974373230343, -98.66434782695218]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -63.53304848642439, 94.0, -112.24685546082071]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -64.79999999701975, 94.0, -112.17674974807967]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.28423075756731, 121.0, -10.55756691440661]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.29317766795093, 122.0, -2.497834213371868]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.6764951501767, 121.0, -11.145799010238763]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.21478697300441, 123.0, -1.646201555683888]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.33320176678042, 121.0, -23.49426661830959]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.26027874219857, 119.0, -31.522819793487237]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.31750606296919, 120.0, -30.480778397690656]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.121968538523, 118.0, -43.38652181984765]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.66360059393931, 118.0, -45.082449970289844]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1182655202485, 118.0, -52.9833575995599]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.13800817887663, 118.0, -55.91043793128019]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.12529768515492, 118.0, -59.61839222196541]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.04905661727628, 118.0, -60.332299755968485]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1858905373646, 118.0, -62.32617494745708]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -115.58548226580427, 118.0, -54.588332110778325]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 118.0, -51.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 118.0, -51.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.06259302310852, 118.0, -66.64880542066548]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.71441564702305, 118.0, -53.19101019610454]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.20954952375327, 100.0, 64.4930838509902]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.11318513235078, 99.0, 66.80811552406428]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.93984163491221, 118.0, -68.1325401384625]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.25062308365693, 118.0, -71.84491079049997]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.5673498160553, 118.0, -69.56537580843708]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -114.5, 117.0, -73.5]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.018549234045, 116.0, -80.60753225802374]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.79479758042207, 116.0, -79.48868402218771]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.15161066220016, 114.0, -88.68244976287765]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 114.0, 89.51106048701399]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -101.98910590693299, 92.56805756360353, -112.69083034313566]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -78.69235342613614, 121.0, 122.64533091124176]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -104.18812333353593, 93.0, -112.16584075602948]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 115.0, 81.65063939315846]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 125.0, 81.65063939315846]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 124.0, 89.51106048701399]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -94.34011291343111, 115.92159999847412, 121.36051856003333]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -96.61066646599579, 118.0, 125.4051043010518]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -108.39707263076103, 110.0, 116.43547274669739]
+[11:40:41] [Server thread/INFO]: [Darkfett: Teleported Chicken to -123.42602392658371, 96.0, 99.72487150392784]
+[11:40:43] [Server thread/INFO]: Darkfett issued server command: /tp @e ~ ~+10 ~
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 49.833329230355716, 77.0, -6.3005520652745695]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 50.691409120555875, 78.0, -14.485574296854551]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to 55.5632999445824, 79.0, -14.822694967542217]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 33.391465104185095, 76.5626666130272, -13.051798983236727]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 44.61855975033727, 72.28533489855651, 8.551114980398477]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 39.5, 67.83308545086399, -19.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 31.11331025721932, 70.0, -7.938086705473564]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 106.43833222072041, -13.695870776338447]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 33.5, 68.23483420347645, -16.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to 32.6483666171145, 68.71402411454392, 4.125]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 34.38157853845049, 68.980089597404, 6.508866236146454]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 32.66499008338364, 65.0, -14.99328160831843]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 39.54167288266467, 76.6250828854387, -26.952857699958827]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 43.178745253518, 76.6110218196738, -28.773212034379483]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 34.41830157367476, 76.53461220786602, -25.650250296841936]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 36.20295646495962, 65.0, -24.110822651362128]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 40.065094830826546, 65.0, -26.918031302841207]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Cow to 23.139722010821387, 69.55854797584075, -9.93700718843075]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to 39.7405345112157, 64.34431148320436, 17.902317134502827]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 65.44452477999111, 79.0, 17.352034423003747]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 38.5292174892914, 116.43833222072041, -13.695870776338447]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 54.5, 67.86460355292239, -40.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Squid to 69.00982453487813, 71.90850798964922, -35.52080522850156]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Squid to 72.09296566713601, 72.0, -34.73310523387045]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.muttonRaw to 82.31444189805774, 77.0, 10.185146650734143]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.tile.cloth.white to 83.16789945014621, 77.0, 9.805284978052404]
+[11:40:43] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.63375016017127, 76.56975188722906, -41.520015912562755]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 64.76012151514954, 76.58454914862784, -46.87534374170167]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 87.5, 76.0, 15.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 63.95810919981321, 71.0, -48.76087522974194]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 46.88935640909025, 64.11198456585407, -50.054577560464836]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 75.09196161172268, 70.0, -47.27816157321819]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 75.5193087804339, 76.73362065815175, -48.358343929528466]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 28.5, 85.0, -51.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 33.5, 85.0, -54.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 70.84878499261946, 70.0, -52.485528652897344]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 71.88897010851714, 76.6233725118267, -53.542477563096234]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to 18.68165018448873, 74.9663692265749, 35.808891941171154]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitHide to 66.875, 78.42196530743965, 42.863066883285654]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitRaw to 65.50012015459617, 77.42196530743965, 43.89225771241471]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 15.5, 101.0, 28.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 39.5, 80.0, -60.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 74.0, -34.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 31.5, 80.0, -59.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 96.5, 75.0, -36.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to 7.5, 39.0, -14.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 13.5, 101.0, 30.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Witch to 21.5, 96.0, -56.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.string to -1.4791873564956624, 97.27086114585559, -35.60011791476794]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.string to 4.522540882848111, 94.0, -48.404147048197444]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 108.5, 64.0, -29.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to -3.5, 87.0, 38.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 112.30032093309063, 106.0, -16.939030667417704]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 68.27332773049753, 85.99595702249593, -75.43749150341324]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -10.79999999701976, 104.13770464924727, -35.79999999701977]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to -2.5, 100.0, 39.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to -6.254905277214121, 66.14677737653255, 41.65828388485564]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to -6.419224798076917, 66.0444636195898, 41.57450534628511]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Creeper to -10.5, 105.0, -43.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to 98.5, 24.0, 14.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 136.0, 41.270784366641486]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to -14.650000005960464, 96.0, 32.349999994039536]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Cow to 112.06095401256614, 106.0, 38.78669617429415]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -24.49437656096286, 92.5944036999478, 29.679519363725795]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.rabbitRaw to 25.473183748073076, 67.0, 72.62741490987402]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to -3.8600727570361766, 98.37655399481302, -68.86169879999882]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.beefRaw to 26.607685281808585, 68.0, 73.66252613939963]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to -28.962617201391392, 57.05851623415947, -39.06323084566363]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 89.10352389042806, 76.54253959775211, -87.07114564387581]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to -32.89791822515773, 56.94878562539816, -37.832706880527475]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 88.09871880503495, 70.0, -87.65190404793059]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to -30.42204127786994, 100.37655399481302, -42.81123244783584]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 115.62895522048503, 108.0, 47.15620286075651]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Pig to 126.4444680379108, 106.0, -47.28767718871602]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Sheep to 118.05285985948454, 109.0, 47.13136589903614]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Skeleton to -21.5, 78.0, 58.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Cow to 113.05568602069908, 146.0, 41.270784366641486]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -1.6876200111255555, 76.5246272395024, 80.20159093306121]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.79999999701977, 103.0, -71.79999999701977]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to -27.83344040171723, 79.08095298707485, 59.463625779874896]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -1.9965778705694746, 71.0, 80.87337662575561]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 125.37385799198812, 104.0, -69.28603630321994]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 124.5, 104.0, -71.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 122.52275613839231, 106.0, -76.30645180001699]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.beefRaw to -1.5356415426237942, 74.0, 87.78549296097869]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Zombie to -52.5, 113.0, 1.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.leather to -2.1204605754104966, 75.0, 88.50617292194137]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 57.292333905880824, 108.0, -112.07343112105828]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 61.96701940389409, 107.0, -112.12479573850354]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 58.5, 108.0, -112.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to -37.257816901441714, 94.0, -74.53774870736031]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 72.3160506046301, 105.0, -112.19408533956305]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -38.27639201448753, 99.85783334969143, -72.28957076655105]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to -57.92240208511169, 92.67616360634565, 23.610742918758596]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported item.item.sulphur to -59.97105322767192, 93.14426206052303, 19.304232880569792]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to 54.67603761319568, 111.41999998688698, -116.68346057456019]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 112.44982867516659, 109.0, 91.27067868550924]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -66.42505274463556, 104.2243065478462, 24.3990843875567]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 142.76760749714566, -16.44471423086408]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 140.0, 122.55000001192093]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -14.5, 113.0, -124.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.877388130016712, 108.0, -125.10659342584502]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -17.626628483154388, 109.0, -126.47552886527421]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -19.5, 108.0, -126.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -83.28167723032396, 152.76760749714566, -16.44471423086408]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Sheep to 13.550000011920929, 150.0, 122.55000001192093]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -72.63965471202513, 80.33848131052133, -98.66434782695218]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -63.53304848642439, 104.0, -112.24685546082071]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -64.79999999701975, 104.0, -112.17674974807967]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.28423075756731, 131.0, -10.55756691440661]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.29317766795093, 132.0, -2.497834213371868]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.6764951501767, 131.0, -11.145799010238763]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.21478697300441, 133.0, -1.646201555683888]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.33320176678042, 131.0, -23.49426661830959]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.26027874219857, 129.0, -31.522819793487237]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.31750606296919, 130.0, -30.480778397690656]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.121968538523, 128.0, -43.38652181984765]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.66360059393931, 128.0, -45.082449970289844]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1182655202485, 128.0, -52.9833575995599]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.13800817887663, 128.0, -55.91043793128019]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.12529768515492, 128.0, -59.61839222196541]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.04905661727628, 128.0, -60.332299755968485]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.1858905373646, 128.0, -62.32617494745708]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -115.58548226580427, 128.0, -54.588332110778325]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 128.0, -51.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.5, 128.0, -51.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.06259302310852, 128.0, -66.64880542066548]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.20954952375327, 110.0, 64.4930838509902]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -116.71441564702305, 128.0, -53.19101019610454]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.11318513235078, 109.0, 66.80811552406428]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.93984163491221, 128.0, -68.1325401384625]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.25062308365693, 128.0, -71.84491079049997]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.5673498160553, 128.0, -69.56537580843708]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -114.5, 127.0, -73.5]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Pig to -112.018549234045, 126.0, -80.60753225802374]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -113.79479758042207, 126.0, -79.48868402218771]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 134.0, 89.51106048701399]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -101.98910590693299, 102.56805756360353, -112.69083034313566]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.15161066220016, 124.0, -88.68244976287765]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -104.18812333353593, 103.0, -112.16584075602948]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 135.0, 81.65063939315846]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -78.69235342613614, 131.0, 122.64533091124176]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.14628125064577, 145.0, 81.65063939315846]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -112.48811954816163, 144.0, 89.51106048701399]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -94.34011291343111, 125.92159999847412, 121.36051856003333]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -96.61066646599579, 128.0, 125.4051043010518]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -108.39707263076103, 120.0, 116.43547274669739]
+[11:40:43] [Server thread/INFO]: [Darkfett: Teleported Chicken to -123.42602392658371, 106.0, 99.72487150392784]
+[11:41:10] [Server thread/INFO]: Darkfett issued server command: /tp Darkfett -264 100 1144
+[11:41:10] [Server thread/INFO]: [Darkfett: Teleported Darkfett to -263.5, 100.0, 1144.5]
+[11:42:05] [Server thread/INFO]: Darkfett issued server command: /tp Darkfett 996 100 276
+[11:42:05] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 996.5, 100.0, 276.5]
+[11:43:11] [Server thread/INFO]: Darkfett issued server command: /gamemode survival
+[11:43:11] [Server thread/INFO]: [Darkfett: Set own game mode to Survival Mode]
+[11:43:45] [Server thread/INFO]: Darkfett issued server command: /gamemode creative
+[11:43:45] [Server thread/INFO]: [Darkfett: Set own game mode to Creative Mode]
+[11:43:51] [Server thread/INFO]: Darkfett issued server command: /gamemode survival
+[11:43:51] [Server thread/INFO]: [Darkfett: Set own game mode to Survival Mode]
+[11:46:09] [Server thread/INFO]: Darkfett issued server command: /gamemode creative
+[11:46:09] [Server thread/INFO]: [Darkfett: Set own game mode to Creative Mode]
+[11:47:35] [Server thread/INFO]: Darkfett issued server command: /effect Darkfett minecraft:night_vision 6000
+[11:47:35] [Server thread/INFO]: [Darkfett: Given Night Vision (ID 16) * 0 to Darkfett for 6000 seconds]
+[11:49:57] [Server thread/INFO]: Darkfett issued server command: /tp Darkfett 800 100 -1200
+[11:49:57] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 800.5, 100.0, -1199.5]
+[11:50:45] [Server thread/INFO]: Darkfett issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:end_portal
+[11:50:45] [Server thread/INFO]: [Darkfett: 1 blocks filled]
+[11:51:07] [Server thread/INFO]: Darkfett issued server command: /tp Darkfett 996 100 276
+[11:51:07] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 996.5, 100.0, 276.5]
+[11:51:30] [Server thread/INFO]: Darkfett issued server command: /tp @e 0 70 0
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Horse to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Witch to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Squid to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Squid to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Squid to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Bat to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Bat to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Bat to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Experience Orb to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:51:30] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:52:57] [Server thread/INFO]: Darkfett has just earned the achievement [Cow Tipper]
+[11:53:07] [Server thread/INFO]: Darkfett issued server command: /tp @e 0 70 0
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Darkfett to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.saddle to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Witch to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:07] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.dyePowder.black to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Bat to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.dyePowder.black to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.rottenFlesh to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Bat to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Rabbit to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Pig to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Spider to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.egg to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.bone to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.arrow to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported item.item.seeds to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Enderman to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Chicken to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: That entity cannot be found]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Creeper to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Sheep to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Zombie to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Skeleton to 0.5, 70.0, 0.5]
+[11:53:08] [Server thread/INFO]: [Darkfett: Teleported Cow to 0.5, 70.0, 0.5]
+[11:56:26] [Server thread/INFO]: Stopping the server
+[11:56:26] [Server thread/INFO]: Stopping server
+[11:56:26] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[11:56:26] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[11:56:26] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[11:56:26] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[11:56:26] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[11:56:26] [Server thread/INFO]: Saving players
+[11:56:26] [Server thread/INFO]: Darkfett lost connection: Server closed
+[11:56:26] [Server thread/INFO]: Darkfett left the game.
+[11:56:26] [Server thread/INFO]: Saving worlds
+[11:56:26] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[11:56:26] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[11:56:26] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

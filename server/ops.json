@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "63c02210-ac49-346c-b4a8-8f4887bb8e6b",
+    "name": "Elektronomia",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c1810de5-daaf-3ab4-8b52-fa67a55e958c",
+    "name": "Darkfett",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

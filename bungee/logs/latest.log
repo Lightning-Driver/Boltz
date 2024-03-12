@@ -1,0 +1,98 @@
+[07:00:26] [main/INFO]: Using mbed TLS based native cipher.
+[07:00:26] [main/INFO]: Using zlib based native compressor.
+[07:00:26] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:f6069e2:513
+[07:00:26] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[07:00:26] [main/INFO]: Epoll is working, utilising it!
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[07:00:26] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:26] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>      EAGLERCRAFTXBUNGEE WARNING:
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>  This plugin wasn't tested to be 'working'
+[07:00:26] [main/WARN]: :>  with ANY version of BungeeCord (and forks)
+[07:00:26] [main/WARN]: :>  apart from the versions listed below:
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>  - BungeeCord: 1.20-R0.2-SNAPSHOT:231024b:1777
+[07:00:26] [main/WARN]: :>  - Waterfall: 1.20-R0.2-SNAPSHOT:d85fe36:556
+[07:00:26] [main/WARN]: :>  - FlameCord: 1.1.1
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>  This is not a Bukkit/Spigot plugin!
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>  Use "-Deaglerxbungee.stfu=true" to hide
+[07:00:26] [main/WARN]: :>  
+[07:00:26] [main/WARN]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[07:00:26] [main/INFO] [EaglercraftXBungee]: Loading vanilla profile: lax1dude
+[07:00:28] [Skin Download Thread #1/INFO] [EaglercraftXBungee]: Loaded vanilla profile: lax1dude
+[07:00:28] [main/INFO]: Loaded plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[07:00:28] [main/WARN]: Forced host server pvp is not defined
+[07:00:28] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f6069e2:513 by WaterfallMC
+[07:00:28] [main/ERROR] [EaglercraftXBungee]: Online mode is set to false! Authentication system has been disabled
+[07:00:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: Eaglercraft is listening on: /0.0.0.0:8081
+[07:00:29] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[07:00:29] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
+[07:00:29] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[07:00:35] [Netty Worker IO Thread #1/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Boltz/bungee/server-icon.png
+[07:00:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49588]: Connected via websocket
+[07:00:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49588]: Origin header is null
+[07:00:41] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49588]: Logged in as 'Elektronomia'
+[07:00:41] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:49588|Elektronomia] -> UpstreamBridge has connected
+[07:00:41] [Netty Worker IO Thread #2/INFO]: [Elektronomia|/[0:0:0:0:0:0:0:1%0]:49588] <-> ServerConnector [lobby] has connected
+[07:09:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:49588|Elektronomia] -> UpstreamBridge has disconnected
+[07:09:55] [Netty Worker IO Thread #2/INFO]: [Elektronomia] disconnected with: Proxy lost connection to server.
+[07:09:55] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:49588|Elektronomia] <-> DownstreamBridge <-> [lobby] has disconnected
+[07:10:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40832]: Connected via websocket
+[07:10:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40832]: Origin header is null
+[07:10:10] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40832]: Logged in as 'Darkfett'
+[07:10:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40832|Darkfett] -> UpstreamBridge has connected
+[07:10:10] [Netty Worker IO Thread #1/INFO]: [Darkfett|/[0:0:0:0:0:0:0:1%0]:40832] <-> ServerConnector [lobby] has connected
+[08:22:21] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40832|Darkfett] -> UpstreamBridge has disconnected
+[08:22:21] [Netty Worker IO Thread #1/INFO]: [Darkfett] disconnected with: Proxy lost connection to server.
+[08:22:21] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:40832|Darkfett] <-> DownstreamBridge <-> [lobby] has disconnected
+[08:28:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56982]: Connected via websocket
+[08:28:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56982]: Origin header is null
+[08:28:00] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56982]: Logged in as 'Darkfett'
+[08:28:00] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56982|Darkfett] -> UpstreamBridge has connected
+[08:28:00] [Netty Worker IO Thread #3/INFO]: [Darkfett|/[0:0:0:0:0:0:0:1%0]:56982] <-> ServerConnector [lobby] has connected
+[08:52:06] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56982|Darkfett] -> UpstreamBridge has disconnected
+[08:52:06] [Netty Worker IO Thread #3/INFO]: [Darkfett] disconnected with: Proxy lost connection to server.
+[08:52:06] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:56982|Darkfett] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:07:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47142]: Connected via websocket
+[09:07:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47142]: Origin header is null
+[09:07:05] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:47142]: Logged in as 'Darkfett'
+[09:07:05] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47142|Darkfett] -> UpstreamBridge has connected
+[09:07:05] [Netty Worker IO Thread #1/INFO]: [Darkfett|/[0:0:0:0:0:0:0:1%0]:47142] <-> ServerConnector [lobby] has connected
+[09:16:01] [Netty Worker IO Thread #1/INFO]: [Darkfett] disconnected with: Server closed
+[09:16:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47142|Darkfett] -> UpstreamBridge has disconnected
+[09:16:01] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:47142|Darkfett] <-> DownstreamBridge <-> [lobby] has disconnected
+[09:39:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56898]: Connected via websocket
+[09:39:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56898]: Origin header is null
+[09:39:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56898]: Logged in as 'Darkfett'
+[09:39:46] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56898|Darkfett] -> UpstreamBridge has connected
+[09:39:46] [Netty Worker IO Thread #2/INFO]: [Darkfett|/[0:0:0:0:0:0:0:1%0]:56898] <-> ServerConnector [lobby] has connected
+[11:07:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56898|Darkfett] -> UpstreamBridge has disconnected
+[11:07:49] [Netty Worker IO Thread #2/INFO]: [Darkfett] disconnected with: Proxy lost connection to server.
+[11:07:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:56898|Darkfett] <-> DownstreamBridge <-> [lobby] has disconnected
+[11:08:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43438]: Connected via websocket
+[11:08:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43438]: Origin header is null
+[11:08:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:43438]: Logged in as 'Darkfett'
+[11:08:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43438|Darkfett] -> UpstreamBridge has connected
+[11:08:57] [Netty Worker IO Thread #0/INFO]: [Darkfett|/[0:0:0:0:0:0:0:1%0]:43438] <-> ServerConnector [lobby] has connected
+[11:56:26] [Netty Worker IO Thread #0/INFO]: [Darkfett] disconnected with: Server closed
+[11:56:26] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43438|Darkfett] -> UpstreamBridge has disconnected
+[11:56:26] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:43438|Darkfett] <-> DownstreamBridge <-> [lobby] has disconnected
